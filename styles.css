@@ -1,0 +1,18 @@
+body {
+  padding: 20px;
+}
+.container {
+  max-width: 50%; /* Diminui a largura do container */
+}
+.mt-3 {
+  margin-top: 15px; /* Adiciona espaçamento entre os elementos */
+}
+.qr-container {
+  display: flex;
+  justify-content: center; /* Centraliza o QR Code */
+  align-items: center;
+  margin-top: 20px;
+}
+#qrcode {
+  max-height: 256px; /* Define a altura */
+}
